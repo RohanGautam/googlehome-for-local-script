@@ -1,4 +1,4 @@
-# Google home > local script
+# Google home -> local script
 Enabling a voice command given to google home to trigger a custom local script!
 ## Basic implementation
 * We host a flask RESTful API on our machine locally.
