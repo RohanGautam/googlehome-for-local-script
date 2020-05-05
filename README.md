@@ -1,5 +1,12 @@
 # Google home -> local script
 Enabling a voice command given to google home to trigger a custom local script!
+
+## What we're working towards:
+You would be able to say:
+> Ok Google, can you ask Custom caller to call my script?
+
+And your python(or any) script would be triggered.
+
 ## Basic implementation
 * We host a flask RESTful API on our machine locally.
 * We use `ngrok` to expose it to the big wide world.
